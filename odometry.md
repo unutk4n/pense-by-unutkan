@@ -28,6 +28,9 @@ There are several types of wheel encoders commonly used in robotics:
 - Rotary Encoders.
 - Linear Encoders.
 
+I think there is lots of types out there but I'll add them as soon as I find them.
+Inertial Odometry
+
 The most common type of encoder used in robotics and automation applications is the Optical Encoder. Optical encoders are widely popular due to their accuracy, reliability, and versatility. They can provide both incremental and absolute position feedback, making them suitable for various tasks.
 
 
@@ -60,3 +63,18 @@ source : https://kshitijtiwari.com/all-resources/mobile-robots/odometry/#:~:text
 
 
 source : https://www.uavnavigation.com/company/blog/visual-odometry#:~:text=Visual%20odometry%20is%20based%20on,position%20in%20three%2Ddimensional%20space.
+
+
+
+## Learned Inertial Odometry for Autonomous Drone Racing 
+
+
+Eveeet bu konu derinlestikce derinlesiyor. Eglenceli ama dipsiz kuyu gibi pezevenk.
+
+
+
+source : https://rpg.ifi.uzh.ch/docs/RAL2023_Cioffi.pdf
+
+https://github.com/uzh-rpg/learned_inertial_model_odometry
+
+https://www.youtube.com/watch?v=2z2Slyt0WlE
