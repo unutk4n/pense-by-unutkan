@@ -13,4 +13,5 @@ SQLite doc fundamental : [Click Here](sql_doc.md)
 Odometry Notes : [Click Here](odometry.md)  
 Python Classes : [Click Here](python_classes.md)  
 ROS Notes: [Click Here](robot-operating-system.md) 
+Git_Notes [Click Here](git-commands.md)
 
