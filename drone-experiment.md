@@ -8,9 +8,12 @@ The first question is What do we want to accomplish? - i'm aware there is two fi
 Since we are not starting from scratch I'll list the parts we have and give descriptions for each item. 
 
 # 1 - Pixhawk4 autopilot   
-    As far as I understood, this autopilot is attached to the drone as the brain. Every  single component is connected to it - directly or indirectly. 
+    As far as I understood, this autopilot is attached to the drone as the brain. Every  
+    single component is connected to it - directly or indirectly. 
 # 2- power management pm02  
-    It provides regulated power to flight controller and power distibution board. Also,  sends information to the autopilot about battery voltage and current supplied to the  flight controller and motors. photo-no-1 
+    It provides regulated power to flight controller and power distibution board. Also, 
+     sends information to the autopilot about battery voltage and current supplied to 
+     the  flight controller and motors. photo-no-1 
 # 3- ARM adopts high strenght plastics  
     KOL (echolu) 
 # 4- Motors -2216 KV880 
@@ -35,12 +38,15 @@ Mainpage for pixhawk [Click Here](https://pixhawk.org)
 
 
 
+# USEFUL BLUEPRINTS
+<picture> 
+<img alt = "pixhawk4blueprint src = "my-drawing.jpg">
+</picture>
 
 
 
 
-
-## UNKNOWN WORDS
+# UNKNOWN WORDS
 ### PPM/SBUS out cable
    Pulse - position modulation >> is a form of signal modulation in wich M message bits are encoded by transmitting a single pulse in one of possible required time shifts. 
 ### XSR receiver 
