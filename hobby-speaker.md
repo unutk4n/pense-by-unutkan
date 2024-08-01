@@ -7,3 +7,4 @@ So story time.
 <picture> 
 <img alt = "blueprint" src = "speaker-hobby-vol1.jpg">
 </picture>
+mobil düzenleme deneme
