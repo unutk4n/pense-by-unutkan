@@ -12,8 +12,7 @@ In understanding how optical fibres work and how data is sent through optic cabl
 The glass strands themselves are absolutely central to the system, but there is also a number of other key parts that play a role in effective data transfer aling optical fibres. 
 
 
-### Firstly, 
-a source of light is needed to transmit information pulses along the transparent strands of plastic or glass tubing strands at the cable's core. It's usually created either by a tiny laser or by an LED source.
+Firstly,  a source of light is needed to transmit information pulses along the transparent strands of plastic or glass tubing strands at the cable's core. It's usually created either by a tiny laser or by an LED source.
 
 
 Secondly, the glass fibres themselves must be surrounded by an additional glass or plastic cladding layer. This one is different from the inner strands.
@@ -122,6 +121,21 @@ Single-mode fibre optic cables are comprised of one glass fibre strand with a fa
 ## Multimode Cables 
 Conversely, multimode cables feature larger cores that guide many modes simultaneously. Multimode fibre cabling significantly increases reflection. This results in higher attenuation and dispersion rates, therefore increasing bandwidth delivery over short distances. Applications needing large data volumes sent over shorter runs (such as communication data in or between a small localised area) typically utilise multimode fibre optic cabling.  
 Multimode fibre, also known as multi-core, is available in various specifications. Common everyday networking fibre optic cable configurations include two-core options, eight-core varieties, and even twenty-four-core fibre optic cable. Essentially, the bandwidth potential and the ability to cope with higher data throughput over shorter distances is determined by the number of cores the cable carries. 
+
+
+# Selecting Fibre Optic Connector
+Connector is an integral component of the cabling system. There are various connector types, including LC, FC, ST, SC, MTRJ, MPO, MTP, DIN E2000 etc. To design a fibre optic system, optical connector selection is very important as well. You have to take polishing styles, fibre type, number of fibres, connector body, coupling mechanism and colour code all into consideration.
+
+## Polishing Stlyes: 
+
+There are mainly three kinds of polishing styles, PC (physical contact), APC (angled physical contact), and UPC (ultra-physical contact). 
+<picture> 
+<img alt = "types" src = "polishing-types.png">
+</picture>
+
+en son nerede kaldik: 
+
+Polishing types'tan sonra fibre types geliyor.
 
 
 Source : https://uk.rs-online.com/web/content/discovery/ideas-and-advice/fibre-optic-cables-guide?srsltid=AfmBOopWGynFHNIIkgeMQE1W_B4nPOoAxum19auHp4qk9z-UFdDxKE2z 
