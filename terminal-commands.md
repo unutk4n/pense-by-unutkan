@@ -31,3 +31,6 @@ a = all (everybody)
 r = read aces to the file 
 w = write access 
 x = execute (run) access  
+
+
+unzip >>> unzip filename.zip
