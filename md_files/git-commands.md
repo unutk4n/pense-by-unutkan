@@ -10,3 +10,5 @@ In the code, the origin is your default remote repository name and '-u' flag is 
 
 if you have a token, type it to the password area when it comes up.  
  
+ git add -u >>>> after deleting files or folder use this command
+ just like add but the reversed version
