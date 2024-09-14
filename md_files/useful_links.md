@@ -8,3 +8,6 @@ everything MIT provides
 
 ## https://sourceforge.net/
 not sure completely 
+
+## https://www.gnu.org/software/bash/manual/bash.html
+docs about bash shell
