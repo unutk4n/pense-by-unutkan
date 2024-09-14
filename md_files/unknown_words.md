@@ -34,3 +34,8 @@
 - denote: anlamına gelmek, belirtmek
 - cladding: kablo kaplama, kılıf optik
 - uniformity : tek düzelik, değişmezlik
+
+
+- devote : adamak, vakfetmek (V)
+- supplant : yeringe gecmek, golgede birakmak (v)
+  
