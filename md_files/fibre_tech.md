@@ -1,5 +1,5 @@
 # A Complete Guide to Fibre Optic Cables
-
+RESIMLER YOK
 It's an advanced type of network cable. It offers significantly improved performance. 
 Optical fibre cabling is used to transfer information via pulses of light. This light is travelling in one or more transparent plastic or glass pipes.
 Each of these strands is little wider than an average hair and is normally surrounded by a furhter layer of cladding at a different density to the main inner strand.  A sheath made up of several layers of insulated casing is also wrapped around the cladded fibres. This usually comprises of a protective wrapper, known as a buffer tube, followed by a final outer jacket designed to protect the entire multi-stranded cable.  
