@@ -48,7 +48,7 @@ Or leave it empty and use the [link text itself]
 ```
  ```python
 s = "Python syntax highlighting"
-print s
+      print s
 ```
  
 ```
