@@ -171,3 +171,319 @@ You can use it the opposite way as well. just with :
 txt = "The best things in life are free!"
 print("expensive" not in txt)
 ```
+
+#### Slicing Strings
+
+You can return a range of characters by using the slice syntax.
+```python
+b = "Hello, World!"
+print(b[2:5])
+```
+Slice From the Start 
+```python
+b = "Hello, World!"
+print(b[:5]) # Do the reversed version to slice it to the end
+```
+
+#### Modify Strings
+
+
+```python
+a = "Hello, World!"
+print(a.upper())
+```
+
+```python
+a = "Hello, World!"
+print(a.lower())
+```
+
+```python
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!" 
+```
+
+```python
+a = "Hello, World!"
+print(a.replace("H", "J"))
+```
+```python
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!'] 
+```
+
+#### F-Strings
+
+F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
+
+To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations. 
+
+```python
+ age = 36
+txt = f"My name is John, I am {age}"
+```
+#### Placeholders and Modifiers
+
+A placeholder can contain variables, operations, functions, and modifiers to format the value. 
+
+A placeholder can include a modifier to format the value.
+
+A modifier is included by adding a colon : followed by a legal formatting type, like .2f which means fixed point number with 2 decimals: 
+```python
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+```
+A placeholder can contain Python code, like math operations: 
+```python
+ txt = f"The price is {20 * 59} dollars"
+print(txt)
+```
+#### Escape Characters
+
+To insert characters that are illegal in a string, use an escape character.
+
+An escape character is a backslash \ followed by the character you want to insert.
+
+```python
+txt = "We are the so-called \"Vikings\" from the north."
+```
+
+Other Escape Characters
+
+- \'   	Single Quote 	
+- \\ 	  Backslash 	
+- \n 	  New Line 	
+- \r   	Carriage Return 	
+- \t 	  Tab 	
+- \b  	Backspace 	
+- \f  	Form Feed 	
+- \ooo 	Octal value 	
+- \xhh 	Hex value
+
+
+#### String Methods
+<b>Note: All string methods return new values. They do not change the original string.</b>
+
+https://www.w3schools.com/python/python_strings_methods.asp 
+
+
+### Booleans
+ou can evaluate any expression in Python, and get one of two answers, True or False. 
+
+When you compare two values, the expression is evaluated and Python returns the Boolean answer: 
+```python
+print(10 > 9)
+print(10 == 9)
+print(10 < 9) 
+```
+
+When you run a condition in an if statement, Python returns True or False: 
+```python
+ a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a") 
+```
+
+Most Values are True
+
+Almost any value is evaluated to True if it has some sort of content.
+
+Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones. 
+
+
+These are false:
+```python
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({}) 
+```
+
+## Python Operators
+
+Python divides the operators in the following groups:
+
+-  Arithmetic operators
+-  Assignment operators
+-  Comparison operators
+-  Logical operators
+-  Identity operators
+-  Membership operators
+-  Bitwise operators
+  
+
+### Python Arithmetic Operators
+
+- \+ 	Addition       	x + y 	
+- \- 	Subtraction 	  x - y 	
+- \* 	Multiplication 	x * y 	
+- / 	Division 	      x / y 	
+- % 	Modulus 	      x % y 	
+- ** 	Exponentiation 	x ** y 	
+- \// Floor division 	x // y
+
+### Python Assignment Operators
+
+
+- = 	   x = 5 	        x = 5 	
+- += 	   x += 3 	      x = x + 3 	
+- -= 	   x -= 3       	x = x - 3 	
+- *=     x *= 3       	x = x * 3 	
+- /= 	   x /= 3 	      x = x / 3 	
+- %= 	   x %= 3 	      x = x % 3 	
+- //= 	 x //= 3 	      x = x // 3 	
+- **= 	 x **= 3 	      x = x ** 3 	
+- &= 	   x &= 3 	      x = x & 3 	
+- |= 	   x |= 3 	      x = x | 3 	
+- ^= 	   x ^= 3 	      x = x ^ 3 	
+- \>>= 	 x >>= 3 	      x = x >> 3 	
+- <<= 	 x <<= 3 	      x = x << 3 	
+- := 	   print(x := 3) 	x = 3
+  
+
+### Python Comparison Operators
+
+- == 	  Equal 	                  x == y 	
+- != 	  Not equal 	              x != y 	
+- \> 	  Greater than 	            x > y 	
+- \<   	Less than               	x < y 	
+- \>= 	Greater than or equal to 	x >= y 	
+- <=  	Less than or equal to 	  x <= y
+
+### Logical Operators
+
+- and
+- or
+- not
+
+### Identity Operators
+
+- is
+- is not
+
+
+### Membership Operators
+- in
+- not in
+
+
+### Bitwise Operators
+
+- &  	AND 	Sets each bit to 1 if both bits are 1 	x & y 	
+- | 	OR 	Sets each bit to 1 if one of two bits is 1 	x | y 	
+- ^ 	XOR 	Sets each bit to 1 if only one of two bits is 1 	x ^ y 	
+- ~ 	NOT 	Inverts all the bits 	~x 	
+- << 	Zero fill left shift 	Shift left by pushing zeros in from the right and let the - leftmost bits fall off 	x << 2 	
+- \>> 	Signed right shift 	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off 	x >> 2
+
+
+### Operator Precedence
+You should also take a note of the precedence thing.
+
+
+## Lists
+
+Lists are used to store multiple items in a single variable.
+
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+
+Lists are created using square brackets: 
+```python
+ thislist = ["apple", "banana", "cherry"]
+ ```
+
+ List items are ordered, changeable, and allow duplicate values. 
+
+List items are indexed, the first item has index [0], the second item has index [1] etc. 
+
+### Ordered
+When we say that lists are ordered, it means that the items have a defined order, and that order will not change. 
+
+If you add new items to a list, the new items will be placed at the end of the list. 
+### Changeable
+The list is changeable, meaning that we can change, add, and remove items in a list after it has been created. 
+### Allow Duplicates
+Since lists are indexed, lists can have items with the same value 
+### List Length
+To determine how many items a list has, use the len() function:
+### List Items - Data Types
+List items can be of any data type: 
+```python
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+```
+A list can contain different data types: 
+```python
+list1 = ["abc", 34, True, 40, "male"]
+```
+### type()
+
+From Python's perspective, lists are defined as objects with the data type 'list':
+```python
+<class 'list'> 
+```
+### The list() Constructor
+
+It is also possible to use the list() constructor when creating a new list. 
+
+Using the list() constructor to make a List:
+```python
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+```
+
+### Using the list() constructor to make a List:
+```python
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+```
+
+### Access List Items
+List items are indexed and you can access them by referring to the index number: 
+```python
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+```
+### Check if Item Exists 
+```python
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list") 
+```
+### Change Item Value
+ 
+To change the value of a specific item, refer to the index number: 
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+```
+### Change a Range of Item Values
+```python
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+```
+### Insert Items
+The insert() method inserts an item at the specified index: 
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+```
+
+python add list item'da kaldik
+
