@@ -485,5 +485,283 @@ thislist.insert(2, "watermelon")
 print(thislist)
 ```
 
-python add list item'da kaldik
+### Add List Items
+
+#### Append Items
+
+To add an item to the end of the list, use the append() method: 
+
+
+#### Insert Items
+
+To insert a list item at a specified index, use the insert() method.
+
+The insert() method inserts an item at the specified index:
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+```
+#### Extend List
+
+To append elements from another list to the current list, use the extend() method. 
+
+```python
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+```
+<b> The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).</b> 
+
+### Remove List Items
+
+#### Remove Specified Item
+
+The remove() method removes the specified item. 
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+```
+<b> If there are more than one item with the specified value, the remove() method removes the first occurrence:</b> 
+
+#### Remove Specified Index 
+The pop() method removes the specified index. 
+
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+```
+<b> If you do not specify the index, the pop() method removes the last item. </b>
+The del keyword also removes the specified index:  
+
+```python
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+```
+<b> The del keyword can also delete the list completely.</b> 
+
+```python 
+thislist = ["apple", "banana", "cherry"]
+del thislist 
+```
+#### Clear the List
+ The clear() method empties the list.
+
+The list still remains, but it has no content. 
+
+```python
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+``` 
+
+
+### Loop Lists
+
+#### Loop Through a List
+You can loop through the list items by using a for loop: 
+```python
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x) 
+  ```
+
+#### Loop Through the Index Numbers
+
+You can also loop through the list items by referring to their index number.
+
+Use the <b>range()</b>  and <b>len()</b> functions to create a suitable iterable. 
+
+```python
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i]) 
+```
+#### Using a While Loop 
+
+ou can loop through the list items by using a while loop. 
+
+```python
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+```
+
+### List Comprehension
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+Example:
+
+Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
+
+Without list comprehension you will have to write a for statement with a conditional test inside: 
+
+```python
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist) 
+```
+With list comprehension you can do all that with only one line of code: 
+
+```python
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist) 
+```
+### Sort Lists
+#### Sort List Alphanumerically 
+
+```python
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+```
+#### Sort Descending
+
+```python
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+```
+#### Customize Sort Function
+
+You can also customize your own function by using the keyword argument key = function. 
+```python
+def myfunc(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
+```
+
+<b> NOTE : By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters: </b>
+Luckily we can use built-in functions as key functions when sorting a list.
+
+So if you want a case-insensitive sort function, use str.lower as a key function 
+
+```python
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+```
+### Copy Lists
+
+You cannot copy a list simply by typing list2 = list1, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2. 
+ 
+You can use the built-in List method copy() to copy a list. 
+```python
+ thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+```
+#### Use the list() method
+```python
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+```
+#### Use the slice Operator
+```python
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist[:]
+```
+
+### Join Lists
+There are several ways to join, or concatenate, two or more lists in Python.
+
+One of the easiest ways are by using the + operator. 
+
+```python
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+```
+
+you can use the extend() method, where the purpose is to add elements from one list to another list: 
+```python
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+```
+
+### List Methods
+Python has a set of built-in methods that you can use on lists. 
+
+- append()	Adds an element at the end of the list
+- clear()	Removes all the elements from the list
+- copy()	Returns a copy of the list
+- count()	Returns the number of elements with the specified value
+- extend()	Add the elements of a list (or any iterable), to the end of the current list
+- index()	Returns the index of the first element with the specified value
+- insert()	Adds an element at the specified position
+- pop()	Removes the element at the specified position
+- remove()	Removes the item with the specified value
+- reverse()	Reverses the order of the list
+- sort()	Sorts the list
+
+
+## Tuples
+
+```python
+mytuple = ("apple", "banana", "cherry")
+```
+- Tuples are used to store multiple items in a single variable.
+
+- Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+
+- A tuple is a collection which is ordered and unchangeable.
+
+- Tuples are written with round brackets.
+### Tuple Items
+
+Tuple items are ordered, unchangeable, and allow duplicate values. 
+
+### Ordered
+When we say that tuples are ordered, it means that the items have a defined order, and that order will not change. 
+### Unchangeable
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created. 
+### Allow Duplicates
+Since tuples are indexed, they can have items with the same value: 
+### Create Tuple With One Item
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple. 
+```python
+thistuple = ("apple",)
+```
+### Data Types
+
+Tuple items can be of any data type 
+A tuple can contain different data types 
+### type()
+From Python's perspective, tuples are defined as objects with the data type 'tuple': 
+```python
+<class 'tuple'> 
+```
+### The tuple() Constructor
+ It is also possible to use the tuple() constructor to make a tuple. 
+```python
+ thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+ ```
+<b>IMPORTANT</b>
+ 
+### Python Collections (Arrays)
+
+There are four collection data types in the Python programming language:
+
+    List is a collection which is ordered and changeable. Allows duplicate members.
+    Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+    Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+    Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+ACCESS TUPLES BASLIGINDA KALDIK
+
+
 
