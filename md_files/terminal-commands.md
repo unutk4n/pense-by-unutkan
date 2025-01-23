@@ -95,6 +95,8 @@ buraya kadar olan kismi biraz kisisellesirebiliriz aslinda.
 
 
 
+glmark2 -b build:duration=1
+
 
 
 
