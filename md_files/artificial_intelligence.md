@@ -30,7 +30,7 @@ Let's say that I need to learn a something and don't have the resourses for it. 
 Let's say that you didn't understand it again. You can just ask it to "can you explain it another way?"
 
 
-
+Uzun zamandir buraya bakmamistik. Yeniden baslamak daha dogru olacaktir :(
 
 what's the best video in order to build an artificial intelligence
 ChatGPT said:
@@ -101,3 +101,34 @@ Things we learned: The AI revolutions is happening is because we have data more 
 
 
 https://www.youtube.com/playlist?list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b
+
+
+
+There are three main types of learning:
+- Reinforcement
+- Unsupervised
+- supervised
+
+Reinforcement : The process of learning in an environment through feedback from an AI's behavior
+Unsupervised: The process of learning without training labels
+supervised: The process of learning with labels
+
+ Precision tells us how much you should trust your program when it says it's found something
+ Recall tells you how much your program can find of the thing you're looking for
+ Figuring out what criteria to use is the key to must AI challenges.
+ Generally more inouts are better for accuracy but the AI will need more processing power and time to make decisions.
+
+
+ ARTIFICIAL NEURAL NETWORK : This term is important. As we have seen in the previous video, the robot was making decisions with only one perceptron (the thing which decides what is what). With artificial neural networks we can do that in an advanced way.
+
+ Not long ago the biggest challange was real-world image recognition like recognition a dog, cat etc.
+
+without AI, a computer could tell if two seperate pictures were the same by comparing every single pixel but it couldn't tell different dog pictures if the objects were dogs.
+
+imagenet is an important webpage that has thousands of pictures with labelled data.
+
+
+buraya neural network olan katmanli bir foto koyalim.
+
+Artificial Neural Network is a Network with more than 3 layers. 1 input 1 -probably more- hidden layer 1 output layer.
+Every single layer has several outputs which is between 0 and 1. If it gets closer to 1 that means the picture, image or data is the defined data. If it's closer to 0 it means it's probably not the defined data. That's used in Deep Learning. Every single layer has a mathmatical function, which requires speed and power in computer 
