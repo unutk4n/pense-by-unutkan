@@ -32,7 +32,7 @@ Let's say that you didn't understand it again. You can just ask it to "can you e
 
 Uzun zamandir buraya bakmamistik. Yeniden baslamak daha dogru olacaktir :(
 
-what's the best video in order to build an artificial intelligence
+# what's the best video in order to build an artificial intelligence
 ChatGPT said:
 ChatGPT
 
@@ -78,7 +78,7 @@ Advanced Level
     "MIT OpenCourseWare: Deep Learning for Self-Driving Cars"
         In-depth, technical coverage of AI applications in robotics and computer vision.
 
-Tips for Finding Good Resources
+## Tips for Finding Good Resources
 
     Search on YouTube: Use terms like “build artificial intelligence beginner course” or “Python AI tutorial.”
     Hands-on Projects: Prioritize tutorials that include real-world projects, such as building chatbots, recommendation systems, or computer vision apps.
@@ -90,7 +90,7 @@ https://www.youtube.com/watch?v=a0_lo_GDcFw
 
 Here I am going to make a quick start with some videos. I'll probably spend 10 hours for the fundamental beginning. If things go as I imagine, I'll carry on.
 
-A machine is said ti have artificial intelligence if it can interpret data, potentially learn from the data, and use that knowledge to adapt and achieve specific goals.
+A machine is said to have artificial intelligence if it can interpret data, potentially learn from the data, and use that knowledge to adapt and achieve specific goals.
 
 The learning from the data is a new approach.
 
