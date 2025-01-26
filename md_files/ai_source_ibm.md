@@ -11,7 +11,7 @@ But in 2024, most AI researchers and practitioners—and most AI-related headlin
 ## Machine learning 
 
 <picture> 
-<img alt = "logo" src = "pictures/ai_subbranches.png">
+<img alt = "subbranches" src = "pictures/ai_subbranches.png">
 </picture>
 
  <b> Directly underneath AI, we have Machine Learning, which involves creating models by training an algorithm to make predictions or decisions based on data. It encompasses a broad range of techniques thaht enable computers to learn from and make inferences based on data without being explicitly programmed for specific tasks. </b>
@@ -47,7 +47,7 @@ These multiple layers enable unsupervised learning: they can automate the extrac
 Because deep learning doesn’t require human intervention, it enables machine learning at a tremendous scale. It is well suited to natural language processing (NLP), computer vision, and other tasks that involve the fast, accurate identification complex patterns and relationships in large amounts of data. Some form of deep learning powers most of the artificial intelligence (AI) applications in our lives today.
 
 <picture>
-<img alt= "dnn" src = "pictures/deepneuralnetwork.png">
+<img alt = "dnn" src = "pictures/deepneuralnetwork.png">
 </picture>
 Deep learning also enables:
 

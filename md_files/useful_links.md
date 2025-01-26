@@ -11,3 +11,13 @@ not sure completely
 
 ## https://www.gnu.org/software/bash/manual/bash.html
 docs about bash shell
+
+## https://www.ibm.com/think/topics/artificial-intelligence
+ibm's ai explanation
+
+## https://www.ibm.com/think/topics/machine-learning
+ibm's machine learning explanation
+
+## https://www.ibm.com/think/topics/deep-learning
+ibm's deep learning explanation
+
