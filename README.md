@@ -4,8 +4,8 @@
 
 
 Hi All!
-Welcome to my holy repository. You will find all kind of notes I've taken during my research. 
-
+Welcome to Pense. This repository tends to be a note book. I usually take my notes here. 
+If you find somthing usefull, help yourself. 
 
 
 ## check out the new documentation I've created: 
