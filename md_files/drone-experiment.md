@@ -40,7 +40,7 @@ Mainpage for pixhawk [Click Here](https://pixhawk.org)
 
 # USEFUL BLUEPRINTS
 <picture> 
-<img alt = "pixhawk4blueprint src = "my-drawing.jpg">
+<img alt = "pixhawk4blueprint" src = "pictures/my-drawing.jpg">
 </picture>
 
 

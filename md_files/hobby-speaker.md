@@ -5,5 +5,5 @@ So story time.
     Ordered some circuit cards. One module that can handle 2 speakers with 4 Ohms and 3W's. It has a aux input and 5 V DC power input.
 
 <picture> 
-<img alt = "blueprint" src = "speaker-hobby-vol1.jpg">
+<img alt = "blueprint" src = "pictures/speaker-hobby-vol1.jpg">
 </picture>

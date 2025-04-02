@@ -1,10 +1,12 @@
 <picture> 
-<img alt = "logo" src = "pictures/logoPense.png">
+<img alt = "logo" src = "md_files/pictures/logoPense.png">
 </picture>
 
 
 Hi All!
 Welcome to my holy repository. You will find all kind of notes I've taken during my research. 
+Oh, just to let you know the headers below are not all of the subjects. In order to see more you should go to the md_files folder
+
 
 
 
