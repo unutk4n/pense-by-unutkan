@@ -97,7 +97,7 @@ The learning from the data is a new approach.
 book recommendation (quite old so it won't help todays AI): A PROPOSAL FOR THE DARTHMOUTH SUMMER RESERACH PROJECT ON ARTIFICIAL INTELLIGENCE - MCCARTHY
 
 I've watched two videos so far.
-Things we learned: The AI revolutions is happening is because we have data more than we need. Social Media and Internet allows us to have this data. We have super fast computers that can process data faster than anything.
+Things we learned: The AI revolutions is happening  because we have data more than we need. Social Media and Internet allows us to have this data. We have super fast computers that can process data faster than anything.
 
 
 https://www.youtube.com/playlist?list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b
@@ -132,3 +132,26 @@ buraya neural network olan katmanli bir foto koyalim.
 
 Artificial Neural Network is a Network with more than 3 layers. 1 input 1 -probably more- hidden layer 1 output layer.
 Every single layer has several outputs which is between 0 and 1. If it gets closer to 1 that means the picture, image or data is the defined data. If it's closer to 0 it means it's probably not the defined data. That's used in Deep Learning. Every single layer has a mathmatical function, which requires speed and power in computer 
+
+
+
+20250219
+Neural networks handle mistakes by using an algorithm called backpropagation to make sure all the neurons that contributed to an error get their math adjustet.
+But we won't dive deeper today.
+
+If a neural network makes a mistake this often means that the weights are not adjusted correctly and we need to update them. 
+Optimization is important. 
+
+Linear Regression ???
+
+Loss Function ???
+
+Backprobagation
+
+
+Local Optimal Solution >> 
+Global Optimal Solution
+.
+
+Time to learn Natural Language Processing 
+
