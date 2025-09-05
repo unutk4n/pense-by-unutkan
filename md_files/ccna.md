@@ -1,7 +1,7 @@
 # INTERFACES AND CABLES
 
 <picture> 
-<img alt = "ccna1" src = "md_files/pictures/ccna1.png">
+<img alt = "ccna1" src = "pictures/ccna1.png">
 </picture>
 The most fundamental and essential thing while connecting things is RJ-45 Cable. (a.k.a. Ethernet cable, cat 5, cat6, cat7)
 ## Ethernet: 
@@ -18,7 +18,7 @@ Speed is measured in bits per second like Kbps, Mbps, Gbps, etc. Not bytes per s
 <b> This means Gigabyte is 8 times larger than a gigabit<b>
 
 <picture> 
-<img alt = "ccna2" src = "md_files/pictures/ccna2.png">
+<img alt = "ccna2" src = "pictures/ccna2.png">
 </picture>
 
 ## Ethernet Standards
@@ -28,7 +28,7 @@ These standards are set by Institute of Electrical and Electronics Engineers a.k
 You’ll notice that all ethernet standards start with IEEE 802.3 
 
 <picture> 
-<img alt = "ccna3" src = "md_files/pictures/ccna3.png">
+<img alt = "ccna3" src = "pictures/ccna3.png">
 </picture>
 
 
@@ -47,7 +47,7 @@ There are 4 pairs (8 in total) of copper wires in UTP Cables. Not every standard
 ## Let's connect things!
 ### Computer - Switch
 <picture> 
-<img alt = "ccna4" src = "md_files/pictures/ccna4.png">
+<img alt = "ccna4" src = "pictures/ccna4.png">
 </picture>
 
 Computers use wire 1 and 2 to Transmit data (Tx) and wire 3 and 6 to Receive data (Rx) 
@@ -59,7 +59,7 @@ This type of transmission is called Full-Dublex Transmission. It allows devices 
 ### Router - Switch
 
 <picture> 
-<img alt = "ccna5" src = "md_files/pictures/ccna5.png">
+<img alt = "ccna5" src = "pictures/ccna5.png">
 </picture>
 
 The wires that’s being used for by the router is the same with pc.  
@@ -69,7 +69,7 @@ Connections made with the cables are called Straight-through cable because 1 is 
 ### Switch - Switch
 
 <picture> 
-<img alt = "ccna6" src = "md_files/pictures/ccna6.png">
+<img alt = "ccna6" src = "pictures/ccna6.png">
 </picture>
 
 In this case we can’t use straight-through cable because it won’t work. The pin protocols doesn’t suit.  
@@ -78,7 +78,7 @@ In that case we have a cable type called Crossover. This cable allows us to conn
 
 
 <picture> 
-<img alt = "ccna7" src = "md_files/pictures/ccna7.png">
+<img alt = "ccna7" src = "pictures/ccna7.png">
 </picture>
 
 
@@ -93,43 +93,43 @@ On those two protocols all 4 pairs of cables are used(8pairs)
 
 The best part about these two protocols is that each pair is bidirectional. 
 <picture> 
-<img alt = "ccna8" src = "md_files/pictures/ccna8.png">
+<img alt = "ccna8" src = "pictures/ccna8.png">
 </picture>
 
 
 ## FIBER-OPTIC CONNECTIONS
 
 <picture> 
-<img alt = "ccna9" src = "md_files/pictures/ccna9.png">
+<img alt = "ccna9" src = "pictures/ccna9.png">
 </picture>
 
 Usually to terminate the Fiber connection you have to use SFP's
 
 <picture> 
-<img alt = "ccna10" src = "md_files/pictures/ccna10.png">
+<img alt = "ccna10" src = "pictures/ccna10.png">
 </picture>
 
 One cable is to receive and one to transmit
 ### Multimode
 <picture> 
-<img alt = "ccna11" src = "md_files/pictures/ccn11.png">
+<img alt = "ccna11" src = "pictures/ccn11.png">
 </picture>
 
 Here you can see the layers of the fiberoptic cable
 
 ### Singlemode
 <picture> 
-<img alt = "ccna12" src = "md_files/pictures/ccna12.png">
+<img alt = "ccna12" src = "pictures/ccna12.png">
 </picture>
 
 
 ### Fiber-Optic Standards
 <picture> 
-<img alt = "ccna13" src = "md_files/pictures/ccna13.png">
+<img alt = "ccna13" src = "pictures/ccna13.png">
 </picture>
 
 ## Diffrences between UTP & Fiber-Optic
 <picture> 
-<img alt = "ccna14" src = "md_files/pictures/ccna14.png">
+<img alt = "ccna14" src = "pictures/ccna14.png">
 </picture>
 
