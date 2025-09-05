@@ -139,19 +139,61 @@ Every single layer has several outputs which is between 0 and 1. If it gets clos
 Neural networks handle mistakes by using an algorithm called backpropagation to make sure all the neurons that contributed to an error get their math adjustet.
 But we won't dive deeper today.
 
-If a neural network makes a mistake this often means that the weights are not adjusted correctly and we need to update them. 
-Optimization is important. 
 
-Linear Regression ???
+With linear regression we draw a line -kind of randomly- and we calculate how much wrong it is we want the line to 
+fit the best result and it's called the line of best fit
 
-Loss Function ???
+To give more accuracy we might need to give more than two features 
+in case of a swimming pool user data
+we can use the temperature and people count 
+it will probably give us a good result but if we want to go further with the results we might need to add the humidity rate
+or the water temperature 
+Please also note that if we add more features the data gets tougher and it might get trickier so you should act wise before 
+adding these features. 
+So if we give a graph more features it will become complicated and hard to understand. At this point this is where neural
+networks come in handy. basically we can't use multi features at a graph but a neural network can do that easily.
 
-Backprobagation
+Loss function: So after training the neural network it will give us an output data and for the swimming pool case let's 
+say that the ouput was 145 but the attendance was 100 so in this case 145-100 = 45 . So the number 45 is the result of the 
+loss function and in order to make it more accurate we us  a function called backpropagation of the error or just backpropagation
+The basic goal is to look at the loss function and then assign blame to neurons back in the previous layers of the network
+Some neurons' calculations may have been more to blame than the others This information is fed backwards, which is where the idea
+of backpropagation comes from  
+Remember: our goal is to find the best combination of weights to get the lowest error 
+
+Local optimal solution : I understood the basics of that but making an explanation is not the easiest thing right now
 
 
-Local Optimal Solution >> 
-Global Optimal Solution
-.
+Also in order to predict how many person will use the pool we need to know the previous results of the count.
+if we don't give enough data to the neural network it won't be able to predict correctly. 
+Keep the network as easy as possible
 
-Time to learn Natural Language Processing 
+
+If you can't understand don't worry about this explanation is not related with the case:
+Açıklamaları yer yer türkçe yapsam nasıl olur diye düşünüyorum ancak karar veremedim. Bazen Türkçe dilinde devam etmenin daha verimli olacağını düşünsem de ulaşabildiğim kaynakların İngilizce olması ve Bu alanda ilerleyen bir çok insanın da İngilizce terimler kullanması beni Türkçe açılama yapmaktan uzaklaştırıyor. Bundan dolayı elimden geldiğince açıklamalarımı İngilizce yapacağım.
+
+
+20250222
+
+
+So far this course focused on artificial intelligence that uses Supervised Learning.
+Supervised leaning needs a teacher to use labeled data to tell them.
+It's like a classroom but we can learn without a classroom. So can unsupervised learning too.
+
+unsupervised learning explanation : .....
+
+
+natural learning processing
+distribution semantics
+
+
+natural language processing :....
+
+Lexical type 
+lexical token
+
+ 
+
+
+
 
