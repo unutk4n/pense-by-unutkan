@@ -1,1 +1,3 @@
-# Not the most aesthetic page you have ever seen but you might find something usefull at the md files folder
+# A little archive of what I'm trying to understand.
+
+You will see lots of subjects which may be completed or still in progress.  Trying to be sufficient not only at Networking but also CLI Open Source etc.
