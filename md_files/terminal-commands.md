@@ -9,9 +9,10 @@ Devices are usually referred to as a node; however, they are still files. All of
 To change or edit files that are owned by root, sudo must be used 
 
 | read | (view) | r or 4|  
+|--------|-------|---------| 
 | write | (edit) | w or 2| 
 | execute | (execute) | x or 1|  
-|--------|-------|---------| 
+
 
 chmod a-w file (removes all writing permissions) 
 chmod o+x file (sets execute permissions for other (public permissions)) 
